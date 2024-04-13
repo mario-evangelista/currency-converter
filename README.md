@@ -4,12 +4,13 @@ Este é um simples conversor de moedas em Java que permite aos usuários convert
 
 ## Funcionalidades
 
-- Conversão entre as seguintes moedas:
-  - BRL (Real brasileiro)
-  - USD (Dólar americano)
+- Conversão de BRL (Real Brasileiro) para as seguintes moedas:
+  - USD (Dólar Americano)
   - EUR (Euro)
-  - GBP (Libra esterlina)
-  - JPY (Iene japonês)
+  - GBP (Libra Esterlina)
+  - JPY (Iene Japonês)
+  - CHF(Franco Suíço)
+  - CNY(Yuan Chinês)
 - Interação textual via console com o usuário.
 - Obtenção dinâmica das taxas de conversão da ExchangeRate-API.
 
@@ -18,7 +19,7 @@ Este é um simples conversor de moedas em Java que permite aos usuários convert
 1. Clone o repositório para o seu ambiente local:
 
 ```
-git clone https://github.com/seu-usuario/conversor-de-moedas-java.git
+git clone https://github.com/mario-evangelista/currency-converter.git
 ```
 
 2. Abra o projeto em sua IDE Java preferida.
@@ -27,7 +28,7 @@ git clone https://github.com/seu-usuario/conversor-de-moedas-java.git
 
 4. Substitua `"YOUR_API_KEY"` no arquivo `CurrencyConverter.java` pela sua chave de API.
 
-5. Execute o programa e siga as instruções no console para converter entre diferentes moedas.
+5. Execute o programa e siga as instruções no console para converter BRL (Real Brasileiro) em diferentes moedas.
 
 ## Contribuição
 
@@ -35,9 +36,5 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver algu
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
-```
-
-Certifique-se de personalizar as instruções de clonagem do repositório com o URL do seu próprio repositório e incluir informações sobre como substituir a chave da API. Além disso, se você tiver qualquer outra informação específica para adicionar ou quiser personalizar mais o arquivo README.md, sinta-se à vontade para fazê-lo!
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.!
 
